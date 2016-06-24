@@ -1,0 +1,19 @@
+{
+    "name": "wikisummarize",
+    "bin": "./bin/wikisummarize.js",
+    "version": "1.0.0",
+    "author": "jake g <jake@haikudeck.com>",
+    "description": "parses wikipedia page, then extracts summary and sentences from text",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/GiantThinkwell/"
+    },
+    "dependencies": {
+        "lodash": "3.0.0",
+        "minimist": ">=1.2.0",
+        "pos": "^0.3.0",
+        "cheerio": "^0.18.0",
+        "minimist": ">=1.2.0",
+        "request": ">=2.9.203"
+    }
+}

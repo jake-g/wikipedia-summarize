@@ -1,0 +1,17 @@
+{
+    "name": "summarize",
+    "main": "./lib/summarize.js",
+    "bin": "./bin/run_summarize.js",
+    "version": "1.0.1",
+    "author": "jake g <jake@haikudeck.com>",
+    "description": "extracts summary and sentences from text",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/GiantThinkwell/"
+    },
+    "dependencies": {
+        "lodash": "3.0.0",
+        "minimist": ">=1.2.0",
+        "pos": "^0.3.0"
+    }
+}

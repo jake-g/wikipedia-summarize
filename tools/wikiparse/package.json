@@ -1,0 +1,17 @@
+{
+    "name": "wikiparse",
+    "main": "./lib/wikiparser.js",
+    "bin": "./bin/wikiparse.js",
+    "version": "1.0.7",
+    "author": "jake g <jake@haikudeck.com>",
+    "description": "parses wikipedia into JSON with sections including text, links and images",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/GiantThinkwell/wiki_summarize"
+    },
+    "dependencies": {
+        "cheerio": "^0.18.0",
+        "minimist": ">=1.2.0",
+        "request": ">=2.9.203"
+    }
+}

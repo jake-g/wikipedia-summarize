@@ -1,0 +1,17 @@
+{
+    "title": "TITLE",
+    "links": {
+
+        "LINK FIELD": {
+            "title": "link title",
+            "occurrences": "number of link occurences",
+            "text": "link text"
+        }
+    },
+    "sections": {
+        "SECTION NAME": {
+            "text": "text for the section and [[LINK REF]] which is referenced above",
+            "images": ["http://IMAGE.jpg"]
+        }
+    }
+}
